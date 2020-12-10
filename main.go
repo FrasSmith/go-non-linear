@@ -62,9 +62,8 @@ func nl(side float64) {
 
 			dc.SetPixel(xi, yi)
 		}
-		fmt.Fprintf(os.Stdout, ".")
 	}
-	fmt.Fprintf(os.Stdout, "\n\nSaving…\n")
+	fmt.Fprintf(os.Stdout, "\n\nSaving file…\n")
 	dc.SavePNG("out.png")
 }
 
