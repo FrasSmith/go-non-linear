@@ -4,4 +4,6 @@ A long time ago, I used to play with a BASIC program on my Acorn Archimedes that
 
 I decided it was time to revisit the code in a modern language.
 
+![Simple Non Linear Plot](sample.png)
+
 This is my golang version of the code. I'm happy to say that it's significantly faster. On my system it can generate a 4K image with 8 million points in under 3 seconds. An 8k image with 32 million points takes under 15 seconds.
